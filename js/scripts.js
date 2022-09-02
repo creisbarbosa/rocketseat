@@ -1,4 +1,16 @@
-// Aqui eu tenho um comentário em linha
-// O código abaixo escreve alguma mesagem no console
-console.log('Bem vindos ao Starter') // Ele ignora esses comentários aqui
-console.log("Não vou ignorar")
+/* 
+
+    Object
+
+    * objeto
+    * dados estruturais
+    * todo objeto possui propriedades / atributos
+    * cada objeto possui suas funcionalidades / métodos
+    
+    {propriedades:'valor'}
+
+*/
+
+console.log({
+    na me: Mike
+})
