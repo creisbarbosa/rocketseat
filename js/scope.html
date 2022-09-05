@@ -1,0 +1,52 @@
+<script>
+    // var é global e local
+    // hoisting (elevação)
+    // o js pega a 'var x' e joga por debaixo dos panos lá pra cima, enquanto o x = 0 permanece onde ela foi escrita, criando um objeto indefinido - conceito de hoisting
+
+console.log('> existe x antes do bloco? ', x)
+{
+    var x = 0
+}
+
+console.log('> existe x antes do bloco? ', x)
+
+// o código acima tem o mesmo resultado se ecrito desta forma abaixo
+
+var xis
+
+console.log('> existe xis antes do bloco? ',xis)
+
+{
+    xis = 0
+}
+
+console.log('> existe xis antes do bloco? ',xis) 
+
+// let e const
+// com o a variável let, não ocorre o fenômeno hoisting(elevação)
+// só funcioname dentro do bloco onde foram criados
+
+{
+    let y = 0
+    console.log('> existe y antes do bloco? ', y)
+}
+
+// não existe y depois do bloco
+
+</script>
+<script>
+    var y = 1
+    var z = 2
+    {
+        {
+            {
+                let y = 0
+                console.log('> existe y? ',y)
+                const z = 3
+                console.log('> existe z? ',z)
+            }
+        }
+    }
+    console.log('> existe y depois do bloco? ',y)
+    console.log('> existe z depois do bloco? ',z)
+</script>
