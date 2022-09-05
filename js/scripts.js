@@ -12,5 +12,10 @@
 */
 
 console.log({
-    na me: Mike
+    name: "Cássio",
+    age: 29,
+    occupation: "UX/UI Designer",
+    andar: function() {
+        console.log('andar')
+    }
 })
