@@ -1,3 +1,4 @@
+
 // create a motivational quotes app
 // function statement
 function createQuotes(){
@@ -12,3 +13,14 @@ createQuotes()
 createQuotes()
 
 console.log(`The End`)
+
+
+// function scope
+
+let subject = 'Create a video'
+function createThink(subject){
+    subject = 'Study'
+    return subject
+}
+console.log(subject)
+console.log(createThink(subject))
