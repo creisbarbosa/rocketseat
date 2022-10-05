@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head'); %>
+    <body>
+        <main>
+            <div class="container py-4">
+                <%- include('../partials/header', {pagina: 'Home'}); %>
+                <div class="p-5 mb-4 bg-light border rounded-3">
+                    <div class="container-fluid py-5">
+                        <h1 class="display-5 fw-bold">Node com EJS</h1>
+                        <p class="col-md-8 fs-4">
+                            If you are writing a backend application in Node.js and you want to send html back to the clients interacting with it, then you must find a way to mix in or interpolate, the processed data into the html files you are sending.
+                        </p>
+                    </div>
+                </div>
+                <%- include('../partials/footer'); %>
+            </div>
+        </main>
+    </body>
+</html>

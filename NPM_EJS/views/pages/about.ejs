@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head'); %>
+    <body>
+        <main>
+            <div class="container py-4">
+                <%- include('../partials/header', {pagina: 'About'}); %>
+                <div class="p-5 mb-4 bg-dark border rounded-3">
+                    <div class="container-fluid py-5">
+                        <h1 class="display-5 fw-bold text-light">About</h1>
+                        <p class="col-md-8 fs-4 text-light">
+                            We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+                        </p>
+                    </div>
+                </div>
+                <%- include('../partials/footer'); %>
+            </div>
+        </main>
+    </body>
+</html>
