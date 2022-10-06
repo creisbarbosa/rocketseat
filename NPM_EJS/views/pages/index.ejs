@@ -11,6 +11,22 @@
                         <p class="col-md-8 fs-4">
                             If you are writing a backend application in Node.js and you want to send html back to the clients interacting with it, then you must find a way to mix in or interpolate, the processed data into the html files you are sending.
                         </p>
+                    </di class="container">
+                        <ul class="list-group col-6">
+                            <% qualitys.forEach(function(quality){ %>
+                                <li class="list-group-item container">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <strong><%= quality.title %></strong><%= quality.message %>
+                                        </div>
+                                        <div class="col">
+                                            <span class="badge bg-primary rounded-pill">Node</span>
+                                            <span class="badge bg-primary rounded-pill">Ejs</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            <% }) %>
+                        </ul>
                     </div>
                 </div>
                 <%- include('../partials/footer'); %>
