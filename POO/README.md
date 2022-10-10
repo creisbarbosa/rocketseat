@@ -64,7 +64,7 @@ Todo objetos possui...
 - Prototype (Os objetos são prortótipos)
      - Os objetos possuem um herança prototipal, herdando muitas outras opções do que as 3 que foram inseridas.
 
-```
+```jsx
 // Definir classe
 class Pessoa {
     contructor(nome) {
@@ -120,7 +120,7 @@ const pessoa = new Pesspa(`Cássio`)
 - Objetos podem herdar, ou estender, características bases
 - Uma cópia de atributos e métodos de outras classes
 
-```
+```jsx
 class Veiculo {
     rodas = 4;
 
