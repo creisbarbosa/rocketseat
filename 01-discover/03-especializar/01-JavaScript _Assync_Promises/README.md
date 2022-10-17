@@ -12,3 +12,5 @@
 - Fullfiled: A promessa foi conocluída com sucesso
 - Rejected: A promessa foi rejeitada, houve um erro
 - Settled: Seja com sucesso ou com erro, ela foi finalmente concluída
+
+## ASsync Awayt
